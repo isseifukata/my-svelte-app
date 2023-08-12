@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+	body {
+		@apply bg-slate-50;
+	}
+}
+@layer components {
+	.stretched-link {
+		@apply after:absolute after:inset-0 z-[1];
+	}
+}
